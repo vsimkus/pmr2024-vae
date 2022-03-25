@@ -1,0 +1,20 @@
+# Create environment with `conda env create -f environment_cpuonly.yml`
+# Activate environment with `conda activate pmr`
+# Update environment with `conda env update --file environment_cpuonly.yml`
+# Remove environment with `conda remove --name pmr --all`
+
+name: pmr
+channels:
+    - pytorch
+    - conda-forge
+    - anaconda
+dependencies:
+    - python=3.8
+    - pytorch=1.11.0
+    - cpuonly
+    - torchvision=0.12.0
+    - numpy=1.21.4
+    - matplotlib
+    - notebook
+    - ipywidgets
+    - tqdm

@@ -1,0 +1,8 @@
+# Jupyter
+**/.ipynb_checkpoints
+
+# Data
+**/data
+
+# Python
+**/__pycache__
