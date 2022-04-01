@@ -2,7 +2,12 @@
 
 This is a repository for a computer tutorial of Probabilistic Modelling and Reasoning (2021/2022) - a University of Edinburgh master's course.
 
-To preview the Jupyter notebook we recommend using [nbviewer](https://nbviewer.org/github/vsimkus/pmr2022-vae/blob/main/Tutorial.ipynb) since GitHub does not properly render it.
+There are two notebooks provided:
+
+* [Tutorial.ipynb](./Tutorial.ipynb) which contains some coding exercises (with the solutions provided in the text).
+* [Tutorial-completed.ipynb](Tutorial-completed.ipynb) where the code has been filled-in for you so you can immediately run it on your machine.
+
+To preview the Jupyter notebook we recommend using [nbviewer](https://nbviewer.org/github/vsimkus/pmr2022-vae/blob/main/Tutorial.ipynb) since GitHub does not properly render it (or to preview the version with the filled-in code see [this](https://nbviewer.org/github/vsimkus/pmr2022-vae/blob/main/Tutorial-completed.ipynb)).
 
 ## Installation
 
