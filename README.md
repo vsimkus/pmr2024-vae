@@ -1,17 +1,17 @@
-# PMR tutorial on VAEs 2021-2022
+# PMR tutorial on VAEs 2022-2023
 
-This is a repository for a computer tutorial of Probabilistic Modelling and Reasoning (2021/2022) - a University of Edinburgh master's course.
+This is a repository for a computer tutorial of Probabilistic Modelling and Reasoning (2022/2023) - a University of Edinburgh master's course.
 
 There are two notebooks provided:
 
 * [Tutorial.ipynb](./Tutorial.ipynb) which contains some coding exercises (with the solutions provided in the text).
 * [Tutorial-completed.ipynb](Tutorial-completed.ipynb) where the code has been filled-in for you so you can immediately run it on your machine.
 
-To preview the Jupyter notebook we recommend using [nbviewer](https://nbviewer.org/github/vsimkus/pmr2022-vae/blob/main/Tutorial.ipynb) since GitHub does not properly render it (or to preview the version with the filled-in code see [this](https://nbviewer.org/github/vsimkus/pmr2022-vae/blob/main/Tutorial-completed.ipynb)).
+To preview the Jupyter notebook we recommend using [nbviewer](https://nbviewer.org/github/vsimkus/pmr2023-vae/blob/main/Tutorial.ipynb) since GitHub does not properly render it (or to preview the version with the filled-in code see [this](https://nbviewer.org/github/vsimkus/pmr2023-vae/blob/main/Tutorial-completed.ipynb)).
 
 ## Installation
 
-Before you run the experiments you will first need to setup the environment on your preferred machine. If you have previously created the `pmr` conda environment for the [HMM tutorials](https://github.com/vsimkus/pmr2022-hmm) you may now only need to update the environment (see below).
+Before you run the experiments you will first need to setup the environment on your preferred machine. If you have previously created the `pmr` conda environment for the [HMM tutorials](https://github.com/vsimkus/pmr2023-hmm) you may now only need to update the environment (see below).
 
 ### Environments
 
@@ -32,7 +32,7 @@ If you haven't already done so, you'll need to open terminal on your machine and
 
 * Install git ([linux](https://git-scm.com/download/linux), [macOS](https://git-scm.com/download/mac), [windows](https://git-scm.com/download/win)) to access the repository if you don't have it already
 * Clone the git repository on your machine or DICE by using `git clone` tool in the terminal (you can find a guide [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
-* Once you've cloned the repository, step into the directory by entering `cd pmr2022-vae` into the terminal
+* Once you've cloned the repository, step into the directory by entering `cd pmr2023-vae` into the terminal
 * If you don’t already have it also install miniconda  ([linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html), [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), [windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)), which will allow you to manage all python dependencies per project
 * You can now create the `pmr` conda environment by typing `conda env create -f environment.yml` (or `conda env create -f environment_cpuonly.yml`). This step may take a while to complete and since it has to download large binaries you should better be connected to a good internet connection.
 
@@ -41,7 +41,7 @@ If you haven't already done so, you'll need to open terminal on your machine and
 Should you wish to use the DICE machines to run the notebook follow these alternative installation instructions
 
 * Clone the git repository on your machine or DICE by using `git clone` tool in the terminal (you can find a guide [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)). Git should already be installed on your DICE machine.
-* Once you've cloned the repository, step into the directory by entering `cd pmr2022-vae` into the terminal
+* Once you've cloned the repository, step into the directory by entering `cd pmr2023-vae` into the terminal
 * You may have installed miniconda for other courses (e.g. MLP), so you can use that too. If you have to install miniconda on your DICE follow the detailed explanation [here](https://github.com/VICO-UoE/mlpractical/blob/mlp2021-22/lab1/notes/environment-set-up.md#2-installing-miniconda)
 * You can now create the `pmr` conda environment by typing `conda env create -f environment.yml` (or `conda env create -f environment_cpuonly.yml`). This step may take a while to complete and since it has to download large binaries you should better be connected to a good internet connection.
 
@@ -50,7 +50,7 @@ Also note, that due to limited resources on the DICE server, at certain times it
 
 ### Google Colab
 
-You can access and run the notebook directly via this link <http://colab.research.google.com/github/vsimkus/pmr2022-vae>. More details can be found at <https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=WzIRIt9d2huC>.
+You can access and run the notebook directly via this link <http://colab.research.google.com/github/vsimkus/pmr2023-vae>. More details can be found at <https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=WzIRIt9d2huC>.
 
 Note that Colab is intended for interactive use, and hence it may time-out your notebook if you don't interact with it for a while (typically it prompts to confirm if you want to keep the notebook alive every couple of hours), so you will not be able to leave it unattended overnight. Also note that the Colab notebook already includes all the required dependencies, however, the versions may differ, hence the results may differ slightly but that should not be a problem for this tutorial.
 
